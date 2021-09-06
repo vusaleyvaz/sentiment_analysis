@@ -1,0 +1,27 @@
+{% extends "bootstrap/base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}
+LSML Final Project
+{% endblock %}
+
+{% block content %}
+
+<div class="container">
+    <form action="", method="post">
+        <dl>
+            {{ form.csrf_token }}
+            {{ wtf.form_field(form.comment) }}
+            <p><input type="submit" value="submit" class="btn btn-primary"/></p>
+        </dl>
+
+    </form>
+</div>
+
+<div class="text-center">
+    {% if s != None %}
+    <h3>{{s}}</h3>
+    <img src={{link_to_pic}} class="img-fluid " alt="alternatetext"> 
+    {% endif %}
+</div>
+{% endblock %}
