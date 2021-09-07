@@ -29,7 +29,7 @@ The model itself is trained based on binary snetiment which gives positive or ne
 On main page  you can provide any comment as an input and get sentiment result as an output. Even though the model was originally trained on binary sentiment, I divided results to positive, neutral and negative sentiments based on probability of of positivity. Please see the ./docker_workspace/app.py for the details. 
 
 <p align='center'>
-  <a href="#"><img src='https://raw.githubusercontent.com/Vusal123/sentiment_analysis/main/images/main_page.png'></a>
+  <a href="#"><img src='https://raw.githubusercontent.com/Vusal123/sentiment_analysis/main/images/main_page.png' width="700" height="600"></a>
 </p>
 
 **/predict (prediction retrieval page)**
@@ -37,7 +37,7 @@ On main page  you can provide any comment as an input and get sentiment result a
 On supplementary prediction retrieval you can directly input you comment as http://localhost:5000/predict?sentence=I%20love%20you%20baby which will provide you the result in json format with the probabilities for positive and negative sentiments.
 
 <p align='center'>
-  <a href="#"><img src='https://raw.githubusercontent.com/Vusal123/sentiment_analysis/main/images/predict_page.png'></a>
+  <a href="#"><img src='https://raw.githubusercontent.com/Vusal123/sentiment_analysis/main/images/predict_page.png' width="700" height="600"></a>
 </p>
 
 ## Installation
