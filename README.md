@@ -16,7 +16,7 @@ https://huggingface.co/bert-base-uncased
 
 Eventhough I aimed for training the model on 10 epochs, as it was taking too long (~1.5hr for 1 epoch) and as it gave 93% accuracy just after 1 epoch, I finished training my model just on one epoch. Accurary was chosen as a metric for the task as the model itselt is binary classification with balanced distribution of each class.
 
-This repo includes all required python files to train the model on your local machine. In case of trying to train model on local machine, you can change device setting to "cuda" and change torch version that accepts gpu training. (change torch version in requirements.txt for gpu training is required). The model that I am using is trained on google colab and downloaded to be used in the project. Model training jupyter notebook is also included in the repo. (final_bert_sentiment.ipynb)
+This repo includes all required python files to train the model on your local machine. In case of trying to train model on local machine, you can change device setting to "cuda" and change torch version that accepts gpu training. (change torch version in requirements.txt for gpu training is required). The model that I am using (**docker_data/model.bin**) is trained on google colab and downloaded to be used in the project. Model training jupyter notebook is also included in the repo. (**docker_workspace/final_bert_sentiment.ipynb**)
 
 Note that for running the application you don't need to train the model, as already trained model is included in the project.
 
