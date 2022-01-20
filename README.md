@@ -22,7 +22,7 @@ Note that for running the application you don't need to train the model, as alre
 
 ## Web Application
 
-The model itself is trained based on binary snetiment which gives positive or negative sentiment. The application is consist of two parts:
+The model itself is trained based on binary sentiment which gives positive or negative sentiment. The application is consist of two parts:
 
 **/ (main page)**
 
